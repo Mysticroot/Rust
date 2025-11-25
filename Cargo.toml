@@ -17,3 +17,19 @@ path = "Collections/Hashmaps.rs"
 [[example]]
 name = "convert_tohashmap"
 path = "Collections/convert_tohashmap.rs"
+
+[[example]]
+name = "Iterators"
+path = "Collections/Iterators.rs"
+
+[[example]]
+name = "consumingIterators"
+path = "Collections/consumingIterators.rs"
+
+[[example]]
+name = "AdaptiveIterators"
+path = "Collections/AdaptiveIterators.rs"
+
+[[example]]
+name = "removeodd"
+path = "Collections/removeodd.rs"
