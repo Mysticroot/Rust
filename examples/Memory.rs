@@ -10,7 +10,7 @@ fn create_String(){
 
     // do_some(s2);
 
-    println!("{}",s1);
+    // println!("{}",s1);
     println!("{}",s2);
 }
 
