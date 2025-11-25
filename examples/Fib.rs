@@ -1,26 +1,21 @@
-
-fn main(){
-
+fn main() {
     println!("{}", fib(10));
-
 }
 
-fn fib(num : i32) ->i32{
+fn fib(num: i32) -> i32 {
+    let mut first = 0;
+    let mut second = 1;
 
-    let mut first=0;
-    let mut second=1;
-
-    if num==0 {return first;}
-    else if num==1 {return second;}
+    if num == 0 {
+        return first;
+    } else if num == 1 {
+        return second;
+    }
 
     for _ in 1..num {
-        let temp=second;
-        second=first+second;
-        first=temp;
-
+        let temp = second;
+        second = first + second;
+        first = temp;
     }
-     second
-
-
-
+    second
 }
