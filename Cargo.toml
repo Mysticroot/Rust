@@ -33,3 +33,7 @@ path = "Collections/AdaptiveIterators.rs"
 [[example]]
 name = "removeodd"
 path = "Collections/removeodd.rs"
+
+[[example]]
+name = "Assign"
+path = "Collections/Assign.rs"

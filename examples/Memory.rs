@@ -1,6 +1,6 @@
-fn create_String() {
+fn create_string() {
     let s1 = String::from("Hello");
-    // let s2=s1;
+    // let s2=s1.clone();
     let s2 = s1;
     // let s1=s2;
 
@@ -15,5 +15,5 @@ fn create_String() {
 // }
 
 fn main() {
-    create_String();
+    create_string();
 }
