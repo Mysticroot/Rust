@@ -37,3 +37,8 @@ path = "Collections/removeodd.rs"
 [[example]]
 name = "Assign"
 path = "Collections/Assign.rs"
+
+
+[[example]]
+name = "StringSlice"
+path = "Collections/StringSlice.rs"
