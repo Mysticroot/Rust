@@ -1,8 +1,16 @@
 
 
 pub trait  Summary {
-    fn summarize(&self) -> String;
+    fn summarize(&self) -> String{
+        String::from("Summary complete")
+    }
     
+}
+
+pub trait Fix {
+    fn fix(&self) -> String{
+        String::from("Fix complete")
+    }
 }
 
 struct User{
@@ -18,11 +26,24 @@ impl Summary for User{
 
 }
 
+impl Fix for User{
+    fn fix(&self) -> String {
+        format!("Fixing user: {}", self.name)
+    }
+}
+
+fn notify<T: Summary + Fix>(item:&T){
+    println!("Notification: {}",item.summarize());
+}
+
  fn main(){
     let user1 = User{
         name:String::from("Alice"),
         age:30,
     };
+
+
+    notify(&user1);
 
     println!("{}",user1.summarize());
  }
