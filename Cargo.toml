@@ -46,3 +46,7 @@ path = "Collections/StringSlice.rs"
 [[example]]
 name = "Generics"
 path = "Collections/Generics.rs"
+
+[[example]]
+name = "Traits"
+path = "Collections/Traits.rs"
