@@ -42,3 +42,7 @@ path = "Collections/Assign.rs"
 [[example]]
 name = "StringSlice"
 path = "Collections/StringSlice.rs"
+
+[[example]]
+name = "Generics"
+path = "Collections/Generics.rs"

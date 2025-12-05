@@ -6,6 +6,10 @@ fn main(){
     // let hello = &s[0..5];
     // let world = &s[6..11];
 
+    let vec=vec![1,2,3,4,5];
+    println!("{:?}", &vec[0..3]);
+
+
     // println!("{} {}", hello, world);
 
     let word = first_word(&s);
