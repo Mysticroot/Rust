@@ -50,3 +50,7 @@ path = "Collections/Generics.rs"
 [[example]]
 name = "Traits"
 path = "Collections/Traits.rs"
+
+[[example]]
+name = "Lifetimes"
+path = "Collections/Lifetimes.rs"
