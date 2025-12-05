@@ -1,14 +1,11 @@
-
-
-fn main(){
+fn main() {
     let s = String::from("hello world");
 
     // let hello = &s[0..5];
     // let world = &s[6..11];
 
-    let vec=vec![1,2,3,4,5];
+    let vec = vec![1, 2, 3, 4, 5];
     println!("{:?}", &vec[0..3]);
-
 
     // println!("{} {}", hello, world);
 
@@ -19,12 +16,11 @@ fn main(){
 fn first_word(s: &String) -> &str {
     let mut index = 0;
 
-    for i  in s.chars().enumerate() {
+    for i in s.chars().enumerate() {
         if i.1 == ' ' {
-            break
+            break;
         }
-        index +=1;
-        
+        index += 1;
     }
     &s[0..index]
 }

@@ -54,3 +54,21 @@ path = "Collections/Traits.rs"
 [[example]]
 name = "Lifetimes"
 path = "Collections/Lifetimes.rs"
+
+[[example]]
+name = "StructWref"
+path = "Collections/StructWref.rs"
+
+[[example]]
+name = "Threads"
+path = "Collections/Threads.rs"
+
+
+[[example]]
+name = "MessagePassing"
+path = "Collections/MessagePassing.rs"
+
+[[example]]
+name = "Largesum"
+path = "Collections/Largesum.rs"
+
